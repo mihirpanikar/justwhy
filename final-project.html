@@ -1,0 +1,231 @@
+<!doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+		<script src="https://kit.fontawesome.com/982236e133.js" crossorigin="anonymous"></script>
+		<script src="./final.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<title>Final Project</title>
+	</head>
+	<body>
+	<header>
+			<div class="navbar" id="navbar">
+			<img class="nav-logo" id="nav-logo" src="img/logo.png" alt="logo">
+			<nav>
+			<ul class="nav-links">
+		   <li><a href="#home">Home</a></li> 
+		    <li><a href="#">Contact</a></li>
+			<li><a href="#about-me">About</a></li>
+			</ul>
+			</nav>
+			</div>
+	</header>
+	<div class="grid-container">
+	<div class="landing-page" id="home">
+		<video autoplay muted loop>
+			<source src="vid/bg1.mp4" type="video/mp4">
+		</video>
+		<div class="landing-page-content">
+
+		<div id="cover-text">
+			<span id="cover-text-head">Oh hello!</span>
+			<span id="cover-text-body">I hope you're enjoying your time<br> as a talking monkey in space.</span>
+		</div>
+
+		<div id="cover-text-button">
+			<a href="#post-grid">
+				<span>Explore</span>
+				<i class="fa-solid fa-circle-arrow-right"></i>
+			</a>
+		</div> 
+		
+		<div class="cover-text-scroll">
+			<img src="img/down.png" alt="scroll">
+		</div>
+	</div>
+	</div>
+
+	<div class="articles" id="post-grid">
+	<div class="articles-header"><i class="fa-solid fa-circle"></i><h1>Articles</h1>
+	<p>Explore my thoughts on certain topics.</p>
+</div>
+<div class="articles-list-holder">
+
+<div class="articles-list-scroll-buttons">
+<button id="left-scroll" onclick="leftScroll()"><i class="fa-solid fa-circle-chevron-left"></i></button>
+<button id="right-scroll" onclick="rightScroll()"><i class="fa-solid fa-circle-chevron-right"></i></button>
+</div>
+	<div class="articles-list" id="articles-list">
+		<article class="card">
+			
+			<div class="card-image">	
+				<img src="img/Death.jpg" alt="Death"></img>
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+
+		<article class="card">
+			
+			<div class="card-image">
+			<img src="img/Death.jpg" alt="Death"></img>
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+
+		<article class="card">
+			
+			<div class="card-image">
+			<img src="img/Death.jpg" alt="Death"></img>							
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+
+		<article class="card">
+			
+			<div class="card-image">
+			<img src="img/Death.jpg" alt="Death"></img>
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+
+		<article class="card">
+			
+			<div class="card-image">
+			<img src="img/Death.jpg" alt="Death"></img>
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+
+		<article class="card">
+			
+			<div class="card-image">
+			<img src="img/Death.jpg" alt="Death"></img>
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+
+		<article class="card">
+			
+			<div class="card-image">
+			<img src="img/Death.jpg" alt="Death"></img>
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+		
+		<article class="card">
+			
+			<div class="card-image">
+			<img src="img/Death.jpg" alt="Death"></img>
+			</div>
+			<header class="card-header">
+				
+				<h2>Contemplating Death</h2>
+				<p><i class="fa-solid fa-circle-check"></i>By Mihir P.</p>
+				<button>view article &#8702</button>
+			</header>
+		</article>
+	</div>	
+    <div class="articles-view-all">
+		<button>View All</button>
+	</div>
+	</div>
+</div>
+	<!-- <div class="section3" id="about-me">
+	<div class="section2-heading"><i class="fa-solid fa-circle"></i><h1>Who am I?</h1>
+		<p>But before that, who are you?</p></div>
+
+<div class="about-me-content">
+	
+	
+	<div class="about-me-text">
+<p>Hello! I'm pretty sure I already helloed you on the homepage. But I figured I was worth repeating. You know, just in case you weren't paying attention or something. I am Mihir, just another curious piece of meat, standing on a rock that's travelling at about 9000 miles an hour around a gas giant in an infinite universe, which is a product of 13 billion years of cosmic evolution. Yeah, I'm that insignificant. And you are too. You should probably spend what little time there is doing something you like, instead of reading about a random stranger on the internet. Alright? Great. Have a great day, or night, if thats your thing.</p>
+	</div>
+	<div class="about-me-image">
+		<img src="img/about-me-2.gif" alt="about-me">
+	</div>
+</div>
+</div> -->
+
+<div class="footer">
+<div class="footer-container">
+	<div class="footer-row">
+	<div class="footer-col">
+		<img src="./img/logo.png" class="footer-logo">
+		<p>Just a fun project. I'll be spitting my thoughts here. Feedbacks will be welcomed.</p>
+	</div>
+
+	<div class="footer-col">
+		<h2>Interesting topics<div class="gradient-underline"></div></h2>
+		<ul>
+		<a href="#"><li>Realizing death?</li></a>
+		<a href="#"><li>Digital Opium?</li></a>
+		<a href="#"><li>IDK</li></a>
+		</ul>
+	</div>
+
+	<div class="footer-col">
+		<h2>Get in touch<div class="gradient-underline"></div></h2>
+		<ul>
+		<a href="#"><li>Instagram</li></a>
+		<a href="#"><li>LinkedIn</li></a>
+		<a href="#"><li>Facebook</li></a>
+		<a href="#"><li>Reddit</li></a>
+		</ul>
+	</div>
+
+	<div class="footer-col">
+		<h2>Navigate<div class="gradient-underline"></div></h2>
+		<ul>
+		<a href="#"><li>Home</li></a>
+		<a href="#"><li>Articles</li></a>
+		<a href="#"><li>About</li></a>
+		<a href="#"><li>Contact</li></a>
+		<a href="#"><li>Feedbacks</li></a>
+		</ul>
+	</div>
+	
+	</div>
+	<p class="copyright">JustWhy © 2022 All Rights Reserved.</p>
+</div>
+</div>
+</div>
+</body>
+	</html>
